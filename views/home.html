@@ -1,7 +1,22 @@
-<div class="home">
+<!-- <div class="home">
 	<h4>Twitter Home</h4>
 	<a ui-sref="home">Home</a>
 	<a ui-sref="home.notifications">Notifications</a>
 	<a ui-sref="home.timeline">timeline</a>
 	<a ui-sref="home.user">User</a>
+	<div ui-view></div>
+</div> -->
+<div class="home">
+  <nav>
+    <ul>
+      <li><a ui-sref="home">Home</a></li>
+      <li><a ui-sref="home.notifications">Notifications</a></li>
+      <li><a ui-sref="home.timeline">Timeline</a></li>
+      <li><a ui-sref="home.user">User</a></li>
+    </ul>
+  </nav>
+	<h4>Twitter</h4>
+
+  <div ui-view></div>
+
 </div>
